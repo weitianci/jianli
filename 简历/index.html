@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet/less" href="./css/index.less">
+    <script src="./js/less.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script>
+        //根据当前设备的宽度，动态计算出rem的换算比例，实现页面中元素的等比缩放
+        ~ function anonymous() {
+            let computedREM = function computedREM() {
+                let winW = document.documentElement.clientWidth,
+                    desW = 640;
+                if (winW >= 640) {
+                    document.documentElement.style.fontSize = '100px';
+                    return;
+                }
+                document.documentElement.style.fontSize = winW / desW * 100 + 'px';
+            };
+            computedREM();
+            window.addEventListener('resize', computedREM);
+        }(window);
+    </script>
+</head>
+
+<body>
+    <main class="mainBox">
+        <!-- 音乐 -->
+        <a class="playBtn" href="javascript:;">
+            <img class="music" src="./img/music.svg" alt="">
+        </a>
+        <!-- londing -->
+        <section class="loadingBox">
+            <img src="./img/logo.jpg" alt="">
+            <div class="progress">
+                <div class="current"></div>
+            </div>
+        </section>
+        <!-- detail -->
+        <section class="detailBox">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- 个人简历 -->
+                    <div class="swiper-slide one">
+                        <div class="qqq">
+                            <div class="jianli">
+                                <p>个</p>
+                                <p class="jianli2">人</p>
+                                <p class="jianli3">简</p>
+                                <p class="jianli4">历</p>
+                                <img class="font_background" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb2" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb3" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb4" src="./img/font_background.webp" alt="">
+                            </div>
+                            <img class="logo_left" src="./img/logo_left.webp" alt="">
+                            <img class="logo_right" src="./img/logo_right.webp" alt="">
+                            <div class="moban clearfix">
+                                <div class="top">
+                                    <img src="./img/head.webp" alt="">
+                                    <div>
+                                        <p>姓名：魏天赐</p>
+                                        <p>年龄：24</p>
+                                        <p>学位：专科</p>
+                                        <p>专业：电子信息工程技术</p>
+                                        <p>应聘岗位：web前端工程师</p>
+                                    </div>
+                                </div>
+                                <div class="xian"></div>
+                                <div class="bottom">
+                                    <p>我是一个对理想有着执着追求的人，坚信是金子总会发光，大学期间培训了半年，让我打下了结实的基础，具有有较强的学习能力和团队合作精神，工作态度严谨，有较强的协调能力和抗压能力，能够不断的完善自己，善于发现和总结，对互联⽹⾏业充满激情和好奇
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 个人特长 -->
+                    <div class="swiper-slide one">
+                        <div class="qqq">
+                            <div class="jianli">
+                                <p>个</p>
+                                <p class="jianli2">人</p>
+                                <p class="jianli3">特</p>
+                                <p class="jianli4">长</p>
+                                <img class="font_background" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb2" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb3" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb4" src="./img/font_background.webp" alt="">
+                            </div>
+                            <img class="logo_left" src="./img/logo_left.webp" alt="">
+                            <img class="logo_right" src="./img/logo_right.webp" alt="">
+                            <div class="moban2">
+                                <div>
+                                    <p>VUE</p>
+                                    <p>HTML</p>
+                                    <p>JS</p>
+                                    <p>JQ</p>
+                                    <p>CSS</p>
+                                    <p>本人毕业于河北交通职业技术学院，熟练掌握HTML,CSS等,会使用Swiper,Bootstrap,Less等插件,在珠峰培训了半年，希望可以在贵公司找份实习工作，学习成长
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="mozhi">
+                                        <img src="./img/mozhi.webp" alt="">
+                                        <img src="./img/mozhi.webp" alt="">
+                                        <img src="./img/mozhi.webp" alt="">
+                                        <img src="./img/mozhi.webp" alt="">
+                                        <img src="./img/mozhi.webp" alt="">
+                                    </div>
+                                    <div class="water">
+                                        <img src="./img/water.png" alt="">
+                                        <img src="./img/water.png" alt="">
+                                        <img src="./img/water.png" alt="">
+                                        <img src="./img/water.png" alt="">
+                                        <img src="./img/water.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 项目经验 -->
+                    <div class="swiper-slide one">
+                        <div class="qqq">
+                            <div class="jianli">
+                                <p>项</p>
+                                <p class="jianli2">目</p>
+                                <p class="jianli3">经</p>
+                                <p class="jianli4">验</p>
+                                <img class="font_background" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb2" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb3" src="./img/font_background.webp" alt="">
+                                <img class="font_background fb4" src="./img/font_background.webp" alt="">
+                            </div>
+                            <img class="logo_left" src="./img/logo_left.webp" alt="">
+                            <img class="logo_right" src="./img/logo_right.webp" alt="">
+                            <div class="moban3">
+                                <div>
+                                    <p>个人简历</p>
+                                    <p>VUE 购物车</p>
+                                    <p>VUE 切换不同布局</p>
+                                </div>
+                                <div>
+                                    <img src="./img/font_background2.webp" alt="">
+                                    <img src="./img/font_background2.webp" alt="">
+                                    <img src="./img/font_background2.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 尾页 -->
+                    <div class="swiper-slide foot">
+                        <div class="qqq">
+                            <div class="top">
+                                <p>期待您的回信</p>
+                            </div>
+                            <img src="./img/brush.webp" alt="">
+                            <div class="bottom">
+                                <p>电子邮箱：947846776@qq.com</p>
+                                <p>现在住址：北京市昌平区</p>
+                                <p>联系方式：15176323269</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 首页 -->
+                    <div class="swiper-slide first">
+                        <div class="qqq">
+                            <img class="brush" src="./img/brush.webp" alt="">
+                            <img class="font1" src="./img/font1.webp" alt="">
+                            <img class="font2" src="./img/font2.webp" alt="">
+                            <img class="jian" src="./img/jian.webp" alt="">
+                            <img class="li" src="./img/li.webp" alt="">
+                            <img class="left" src="./img/left.webp" alt="">
+                            <img class="right" src="./img/right.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- music -->
+        <audio id="musicAudio" src="./music/丹妮 - 云之巅.mp3" preload="none" loop></audio>
+    </main>
+</body>
+<script src="./js/zepto.min.js"></script>
+<!-- <script src="./js/swiper-3.4.2.jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
